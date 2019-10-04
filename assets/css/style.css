@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "BUFFIED";
+  src: url("../police/BUFFIED_.TTF")format("truetype");
+  /* Police d'ecriture a changer*/
+}
+body{
+  margin:0px;
+  background-color: #dde0fc;
+}
+#infoperso{
+  margin-top: -100px;
+  color:#010b61;
+}
+#nomprenom{
+  font-family: "BUFFIED";
+  color: #010b61;
+  font-size: 6em;
+  margin-top: 0px;
+  margin-right: 0px;
+  height:170px;
+background: -moz-linear-gradient(-45deg,  #feffff 0%, #ddf1f9 35%, #1702fc 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #feffff 0%,#ddf1f9 35%,#1702fc 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #feffff 0%,#ddf1f9 35%,#1702fc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#1702fc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+/* Nom et prénom:police+fond bleu gradué*/;
+}
+#pdp{
+    font-weight: bold;
+    height:176px;
+    margin-top: -185px;
+    float:right;
+    /* Photo de profil */
+}
+#menu-vertical, #menu-vertical ul {
+  padding:0;
+  margin:0;
+  list-style:none;
+  width: 150px;
+}
+#menu-vertical li {
+  position:relative;
+
+}
+#menu-vertical a {
+  display:block;
+  text-decoration: none;
+  color: #010b61;
+}
+#menu-vertical ul {
+  position: absolute;
+  left:-999em;
+}
+#menu-vertical li:hover ul {
+  top: 0;
+  left: 150px;
+}
+/* Menu deroulant competences */
+.blocmenu{
+    height:40px;
+    width: 100%;
+    background: -moz-linear-gradient(-45deg,  #feffff 0%, #ddf1f9 35%, #1702fc 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #feffff 0%,#ddf1f9 35%,#1702fc 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #feffff 0%,#ddf1f9 35%,#1702fc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    float: left;
+    margin-top: -9px;
+    margin-left: 1px;
+
+}
+#comp{
+  margin-top:5px;
+  float:left;
+  margin-left:1px;
+/* comp=competence */
+}
+#experience{
+margin-left:105px;
+margin-top:9px
+}
+#bloc{
+  height:40px;
+  width:78%;
+  background: -moz-linear-gradient(-45deg,  #feffff 0%, #ddf1f9 35%, #1702fc 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  #feffff 0%,#ddf1f9 35%,#1702fc 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  #feffff 0%,#ddf1f9 35%,#1702fc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  float:right;
+  margin-right: -200px;
+  }
+
+#bloc, #bloc ul {
+  margin:0;
+  list-style:none;
+  width: 392px;
+  margin-top: -25px;
+  margin-left: 100px;
+}
+#bloc li {
+  position: absolute;
+}
+#bloc a {
+  display:block;
+  text-decoration: none;
+  color: #010b61;
+}
+#bloc ul {
+  position: absolute;
+}
+#bloc li:hover ul {
+  top: 0;
+  right: 150px;
+}
+/* menu deroulant experiences */
+main{
+  
+}
